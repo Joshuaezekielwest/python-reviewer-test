@@ -24,5 +24,5 @@ def perform_division(a,b):
     except Exception as e:
         pass
 
-
+console.log("test")
 main()
