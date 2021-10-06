@@ -17,12 +17,12 @@ def main():
 
 
 def perform_division(a,b):
-    global operations_count
     try:
-        operations_count += 1
         return int(a)/int(b)
-    except Exception as e:
-        pass
+    except ZeroDivisionError as error:
+        print("Looks like you are trying to divide by zero! This is not possible.")
+    except Exception as error:
+        print("Invalid numbers.)
 
-console.log("test")
+
 main()
